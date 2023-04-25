@@ -30,11 +30,6 @@ if __name__ == '__main__':
                                                         "ip": "10.0.0.233",
                                                         "prefix-length": 32
                                                     },
-                                                    "state": {
-                                                        "ip": "10.0.0.233",
-                                                        "prefix-length": 32,
-                                                        "origin": "STATIC"
-                                                    }
                                                 }
                                             ]
                                         }
@@ -48,12 +43,6 @@ if __name__ == '__main__':
                                                         "ip": "fc00:0:233::1",
                                                         "prefix-length": 128
                                                     },
-                                                    "state": {
-                                                        "ip": "fc00:0:233::1",
-                                                        "prefix-length": 128,
-                                                        "origin": "STATIC",
-                                                        "status": "PREFERRED"
-                                                    }
                                                 }
                                             ]
                                         }
