@@ -1,7 +1,7 @@
 from pygnmi.client import gNMIclient
 import json
 
-host = ("10.152.254.106",57400)
+host = ("10.251.254.106",57400)
 
 if __name__ == '__main__':
 
