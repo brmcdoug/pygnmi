@@ -12,3 +12,10 @@ if __name__ == '__main__':
 		get_result = gc.get(path=path,encoding='json_ietf',datatype='all',) 
 
 	print(json.dumps(get_result, indent=4))
+	
+	path = ['openconfig-interfaces:interfaces/interface/config']
+
+	with gNMIclient(target=host,username="cisco",password="cisco123",insecure=True, gnmi_timeout=30) as gc:	
+		get_result = gc.get(path=path,encoding='json_ietf',datatype='all',) 
+
+	print(json.dumps(get_result, indent=4))

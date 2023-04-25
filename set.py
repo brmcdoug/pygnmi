@@ -13,7 +13,7 @@ if __name__ == '__main__':
 							"name":"Loopback3",
 							#"enabled": False,
 							"type": "iana-if-type:softwareLoopback",     ## mandatory field as per YANG module
-							"description":"testing pygnmi to create an interface"
+							#"description":"testing pygnmi to create an interface"
 						}
 
 					}
